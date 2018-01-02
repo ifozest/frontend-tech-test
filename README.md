@@ -37,19 +37,19 @@ Fork the repository into your account. Once your code is ready, send a pull-requ
 * using the `made in Travix` technologies
 * ... Impress us!
 
-##Setup
+## Setup
 install dependencies
 ```
 npm i
 ```
 
-###Production Build
+### Production Build
 run 
 ```
 npm run start
 ```
 
-###Development Mode
+### Development Mode
 run in separated terminals 
 ```
 npm run server
@@ -58,13 +58,13 @@ and
 ```
 npm run dev
 ```
-##Tests
+## Tests
 run
 ```
 npm run tests
 ```
 
-###Integration Tests
+### Integration Tests
 start server with command
 ```
 npm run start
