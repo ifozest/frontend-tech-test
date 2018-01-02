@@ -21,6 +21,9 @@ describe('#integration tests', () => {
     nightmare
       .goto(path)
       .wait('.header')
+      .wait(() => {
+        return document.getElementsByClassName('task').length || document.getElementsByClassName('board-empty').length;
+      })
       .evaluate(() => {
         tasks = document.getElementsByClassName('task').length;
       })
