@@ -4,7 +4,8 @@ import {
 } from 'utils/constants';
 
 /**
- * Loading flag, used for Loader Component
+ * Loading flag
+ * Indicate status of AJAX request
  *
  * @param {boolean} [state = false] - current state
  * @param {Object} action
