@@ -1,0 +1,59 @@
+.btn {
+  display: inline-block;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  user-select: none;
+  border: 1px solid transparent;
+  padding: 5px 10px;
+  font-size: 16px;
+  line-height: 1.5;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.btn-link {
+  text-decoration: underline;
+}
+
+.btn-link-action {
+  color: #cbcbcb;
+  &:hover {
+    color: #979797;
+  }
+}
+
+.btn-action {
+  background: #cbcbcb;
+  border-color: #c5c5c5;
+  &:hover {
+    background: #979797;
+  }
+}
+
+.btn-submit {
+  color: #fff;
+  background: #218838;
+  border-color: #1e7e34;
+  &:hover {
+    background: #1f6d34;
+  }
+}
+
+.btn-cancel {
+  color: #000;
+  background: #fafafa;
+  border-color: #ced4da;
+  &:hover {
+    background: #ebebeb;
+  }
+}
+
+.btn-menu {
+  color: $white;
+  background: $purple;
+  border-color: $white;
+  &:hover {
+    background: #d6d6d6;
+  }
+}

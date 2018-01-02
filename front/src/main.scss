@@ -1,0 +1,18 @@
+@import '~normalize.css';
+@import 'variables';
+
+@import 'styles';
+@import 'buttons';
+
+@import 'components/App/styles';
+@import 'components/Header/styles';
+@import 'components/TaskBoard/styles';
+@import 'components/TaskBoardFooter/styles';
+@import 'components/TaskBoardEmpty/styles';
+
+@import 'components/TaskView/styles';
+@import 'components/TaskForm/styles';
+@import 'components/LoadingIndicator/styles';
+@import 'components/Task/styles';
+
+@import 'components/Error/styles';

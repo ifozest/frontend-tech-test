@@ -1,0 +1,8 @@
+.container {
+  display: flex;
+  flex-flow: column wrap;
+  margin: 0 auto;
+  min-width: 400px;
+  padding: 10px;
+  background: $background;
+}

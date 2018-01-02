@@ -1,0 +1,30 @@
+.form {
+  &_group {
+    margin-bottom: 5px;
+  }
+  &_label {
+    display: inline-block;
+    margin-bottom: 5px;
+    color: #72368D;
+  }
+  &_control {
+    display: block;
+    width: 100%;
+    padding: 5px 10px;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    border: 1px solid #ced4da;
+    border-radius: 3px;
+    &::placeholder {
+      color: #ced4da;
+    }
+  }
+  &_actions {
+    text-align: right;
+    .btn-submit {
+      margin-left: 10px;
+    }
+  }
+}

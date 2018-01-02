@@ -1,0 +1,17 @@
+.task-view {
+  &_title {
+    margin: 5px 0;
+    color: $purple;
+  }
+  &_description {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+  &_actions {
+    text-align: right;
+    &_remove {
+      margin-left: 10px;
+    }
+  }
+}

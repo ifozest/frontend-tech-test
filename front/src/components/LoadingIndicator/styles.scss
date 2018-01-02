@@ -1,0 +1,31 @@
+.loading {
+  font-size: 32px;
+  &:after {
+    color: white;
+    content: ' .';
+    text-shadow: 1rem 0 0 $white, 2rem 0 0 $white;
+  }
+  &.loading-animation {
+    &:after {
+      animation: dots 1s steps(5, end) infinite;
+    }
+  }
+}
+
+@keyframes dots {
+  0%, 20% {
+    color: transparent;
+    text-shadow: 1rem 0 0 transparent, 2rem 0 0 transparent;
+  }
+  40% {
+    color: $white;
+    text-shadow: 1rem 0 0 transparent, 2rem 0 0 transparent;
+  }
+  60% {
+    text-shadow: 1rem 0 0 $white, 2rem 0 0 transparent;
+  }
+  80%, 100% {
+    color: $white;
+    text-shadow: 1rem 0 0 $white, 2rem 0 0 $white;
+  }
+}

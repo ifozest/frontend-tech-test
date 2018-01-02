@@ -36,3 +36,40 @@ Fork the repository into your account. Once your code is ready, send a pull-requ
 * dynamic-ui (web-sockets...?)
 * using the `made in Travix` technologies
 * ... Impress us!
+
+##Setup
+install dependencies
+```
+npm i
+```
+
+###Production Build
+run 
+```
+npm run start
+```
+
+###Development Mode
+run in separated terminals 
+```
+npm run server
+```
+and 
+```
+npm run dev
+```
+##Tests
+run
+```
+npm run tests
+```
+
+###Integration Tests
+start server with command
+```
+npm run start
+```
+and run tests
+```
+npm run integration-test
+```

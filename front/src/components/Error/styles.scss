@@ -1,0 +1,9 @@
+.error {
+  min-height: 25px;
+  text-align: center;
+  &_message {
+    background: $error;
+    color: $white;
+    padding: 3px;
+  }
+}
